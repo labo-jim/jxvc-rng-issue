@@ -1,4 +1,4 @@
-Test case for <https://github.com/mojohaus/xml-maven-plugin/issues/21#issuecomment-379674586>
+Test case for <https://github.com/rosslamont/jxvc/issues/24>
 
 Error `found attribute "xmlns", but no attributes allowed here`.
 
