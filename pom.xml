@@ -32,22 +32,22 @@
           <dependency>
             <groupId>com.componentcorp.xml.validation</groupId>
             <artifactId>jxvc</artifactId>
-            <version>0.9.3</version>
+            <version>0.9.5-SNAPSHOT</version>
           </dependency>
           <dependency>
             <groupId>com.componentcorp.xml.validation</groupId>
             <artifactId>relaxng-compact</artifactId>
-            <version>0.9.3</version>
+            <version>0.9.5-SNAPSHOT</version>
           </dependency>
           <dependency>
             <groupId>com.componentcorp.xml.validation</groupId>
             <artifactId>base</artifactId>
-            <version>0.9.3</version>
+            <version>0.9.5-SNAPSHOT</version>
           </dependency>
           <dependency>
             <groupId>com.componentcorp.xml.validation</groupId>
             <artifactId>relaxng</artifactId>
-            <version>0.9.3</version>
+            <version>0.9.5-SNAPSHOT</version>
           </dependency>
           
 		  <dependency>
@@ -70,15 +70,15 @@
         </executions>
         <configuration>
           <validationSets>
-		     <validationSet>
-				<!-- This works -->
+		     <!-- <validationSet>
+				<!- This works ->
               <dir>src/test</dir>
               <includes>
                 <include>test.xml</include>
               </includes>
               <systemId>src/main/grammars/test.rng</systemId>
               <schemaLanguage>http://relaxng.org/ns/structure/1.0</schemaLanguage>
-            </validationSet>
+            </validationSet> -->
             <validationSet>
               <!-- xml-model (via jxvc) -->
 			  <!-- this does not -->
